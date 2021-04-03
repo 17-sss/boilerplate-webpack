@@ -1,0 +1,53 @@
+{
+    "name": "webpack-express-boilerplate",
+    "version": "1.0.0",
+    "description": "처음 만들어보는 webpack Boilerplate (express)",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack -w | nodemon app.js",
+        "start:app": "nodemon app.js",
+        "build:webpack": "webpack -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/17-sss/webpack-express-boilerplate.git"
+    },
+    "keywords": [
+        "webpack",
+        "webpack express",
+        "webpack boilerplate",
+        "webpack express boilerplate"
+    ],
+    "author": "17-sss (Hoyoung Son)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/17-sss/webpack-express-boilerplate/issues"
+    },
+    "homepage": "https://github.com/17-sss/webpack-express-boilerplate#readme",
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "bootstrap": "^4.6.0",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "jquery": "^3.6.0",
+        "sass": "^1.32.8"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.13.14",
+        "@babel/core": "^7.13.14",
+        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "@babel/preset-env": "^7.13.12",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.2.0",
+        "mini-css-extract-plugin": "^1.4.0",
+        "nodemon": "^2.0.7",
+        "prettier": "2.2.1",
+        "sass-loader": "^11.0.1",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.30.0",
+        "webpack-cli": "^4.6.0"
+    }
+}
