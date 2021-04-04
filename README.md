@@ -2,12 +2,14 @@
 
 ## Installation
 ```sh
-npm i
+$ git remote add webpack https://github.com/17-sss/webpack-express-boilerplate.git
+$ git pull webpack Include_Route_Version
+$ npm i
 ```
 
 ## Usage
 ```sh
-npm start
+$ npm start
 ```
 
 ## Features
