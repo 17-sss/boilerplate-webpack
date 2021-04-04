@@ -2,12 +2,15 @@
 
 ## Installation
 ```sh
-npm i
+$ git remote add webpack https://github.com/17-sss/webpack-express-boilerplate.git
+$ git pull webpack Normal_Version
+$ npm i
 ```
 
 ## Usage
 ```sh
-npm start
+$ npm run dev
+$ npm start
 ```
 
 ## Features
@@ -36,6 +39,8 @@ npm start
 
 ### Plugins
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin)
+- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin)
+- [`html-webpack-plugin`](https://webpack.js.org/plugins/html-webpack-plugin/)
 
 ### Linters
 - [`prettier`](https://github.com/prettier/prettier)
@@ -43,14 +48,12 @@ npm start
 
 ### common
 - [`express`](https://github.com/expressjs/express)
-- [`dotenv`](https://github.com/motdotla/dotenv)
 - [`ejs`](https://github.com/mde/ejs)
 - [`jquery`](https://github.com/jquery/jquery)
 - [`@fortawesome/fontawesome-free`](https://github.com/FortAwesome/Font-Awesome)
 - [`bootstrap`](https://github.com/twbs/bootstrap)
 - [`sass`](https://github.com/sass/dart-sass)
 - [`nodemon`](https://github.com/remy/nodemon)
-- [`concurrently`](https://github.com/kimmobrunfeldt/concurrently)
 
 ### 참고사항
 - `.env` 파일은 .gitignore 해줘야 합니다. 사용하시게 된다면 꼭 ignore 해주세요!
