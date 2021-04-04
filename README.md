@@ -1,5 +1,5 @@
 # 🗃️ webpack (express) Boilerplate 
 
 ## Version List
-### Lite Version
-- [Lite Version](https://github.com/17-sss/webpack-express-boilerplate/tree/Lite-Version)
+### Include Route Version
+- [Include Route Version](https://github.com/17-sss/webpack-express-boilerplate/tree/Include_Route_Version)
