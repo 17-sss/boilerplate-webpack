@@ -54,6 +54,3 @@ $ npm start
 - [`bootstrap`](https://github.com/twbs/bootstrap)
 - [`sass`](https://github.com/sass/dart-sass)
 - [`nodemon`](https://github.com/remy/nodemon)
-
-### 참고사항
-- `.env` 파일은 .gitignore 해줘야 합니다. 사용하시게 된다면 꼭 ignore 해주세요!
