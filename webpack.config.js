@@ -62,5 +62,11 @@ const config = {
             },
         ],
     },
+    devServer: {
+        contentBase: path.resolve(__dirname, './src/dist'),
+        index: "index.html",
+        port: 3000,
+        hot: true,
+    },
 };
 module.exports = config;
