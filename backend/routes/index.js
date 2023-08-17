@@ -4,7 +4,7 @@ const router = express.Router();
 
 // app: [GET, / ]
 router.get('/', (req, res) => {
-    res.render('index', {title: 'Webpack-express-boilerplate'});
+  res.render('index', { title: 'MAIN' });
 });
 
 module.exports = router;
